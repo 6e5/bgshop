@@ -1,21 +1,18 @@
 import React from "react";
 
-const GameCard = () => (
+const GameCard = props => (
   <div className="ui card">
     <div className="image">
-      <span className="ui green ribbon label">$32.99</span>
-      <img
-        src="http://starcutciders.com/wp-content/uploads/2016/02/Elita-246x300-246x300-246x300.jpg"
-        alt=""
-      />
+      <span className="ui green ribbon label">${props.game.price}</span>
+      <img src={props.game.thumbnail} alt="" />
     </div>
     <div className="content">
       <a href="#" className="header">
-        Quadrapolis
+        {props.game.name}
       </a>
       <div className="meta">
-        <i className="icon users" /> 2-4&nbsp;
-        <i className="icon wait" /> 60 min.
+        <i className="icon users" /> {props.game.players}&nbsp;
+        <i className="icon wait" /> {props.game.duration}
       </div>
     </div>
   </div>
