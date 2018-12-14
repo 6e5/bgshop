@@ -7,7 +7,7 @@ const games = [
     name: "Arash",
     thumbnail:
       "http://ineasysteps.com/wp-content/uploads/2015/12/9781840786477_web-246x300.png",
-    price: 3299,
+    price: 2299,
     players: "2-4",
     duration: 60
   },
