@@ -6,28 +6,28 @@ const games = [
     _id: 1,
     name: "Arash",
     thumbnail:
-      "http://starcutc_iders.com/wp-content/uploads/2016/02/Elita-246x300-246x300-246x300.jpg",
-    price: "32.99",
+      "http://ineasysteps.com/wp-content/uploads/2015/12/9781840786477_web-246x300.png",
+    price: 3299,
     players: "2-4",
-    duration: "60 min."
+    duration: 60
   },
   {
     _id: 2,
     name: "Yemen",
     thumbnail:
       "http://ineasysteps.com/wp-content/uploads/2015/12/9781840786477_web-246x300.png",
-    price: "32.99",
+    price: 2099,
     players: "2-4",
-    duration: "60 min."
+    duration: 60
   },
   {
     _id: 3,
     name: "Sanaa",
     thumbnail:
       "https://www.tunerstickers.com/wp-content/uploads/2016/09/Harambe-Window-Decal-Sticker-246x300.png",
-    price: "32.99",
+    price: 5199,
     players: "2-4",
-    duration: "60 min."
+    duration: 60
   }
 ];
 
